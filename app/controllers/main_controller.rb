@@ -6,7 +6,12 @@ class MainController < ApplicationController
   def question
     $q.restart
     @qnum = $q.getQNum
-    @question = $q.getQuestion
+    if $q.getQuestion != nil
+      @question = $q.getQuestion
+    else
+      @results = $q.finalResult
+      render 'main/result'
+    end
   end
 
   def nextQuestion
@@ -16,8 +21,14 @@ class MainController < ApplicationController
     else
       $q.checkAnswer(params['answer'])
       @qnum = $q.getQNum
-      @question = $q.getQuestion
-      render 'main/question'
+
+      if $q.getQuestion != nil
+        @question = $q.getQuestion
+        render 'main/question'
+      else
+        @results = $q.finalResult
+        render 'main/result'
+      end
     end
   end
 
@@ -25,7 +36,7 @@ class MainController < ApplicationController
     $q.restart
 
     @qnum = $q.getQNum
-      @question = $q.getQuestion
-      render 'main/question'
+    @question = $q.getQuestion
+    render 'main/question'
   end
 end

@@ -19,11 +19,10 @@ class AskQuestions
 		end
 
 		$num = $num + 1
-		puts $num
 	end
 
 	def endOfQuestions
-		if $num == $amountOfQ
+		if ($num - 1) == $amountOfQ
 			return true
 		else
 			return false
