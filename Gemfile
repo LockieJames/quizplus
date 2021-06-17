@@ -17,10 +17,14 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.7'
 gem 'bcrypt', '~> 3.1', '>= 3.1.16'
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'webpacker', '~> 5.4'
+gem 'json', '~> 2.5', '>= 2.5.1'
 gem 'httparty', '~> 0.18.1'
+gem 'rest-client', '~> 2.1'
+gem 'http', '~> 5.0'
 
 group :development, :test do
   gem 'sqlite3', '~> 1.4', '>= 1.4.2'
+  gem 'pg', '~> 1.2', '>= 1.2.3'
   gem 'byebug', '11.1.3', platforms: [:mri, :mingw, :x64_mingw]
 end
 

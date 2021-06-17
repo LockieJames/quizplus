@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1036,
+        "question": "Which command will you use to check your Ansible version?",
+        "description": null,
+        "answers": {
+            "answer_a": "ansible-ctl --version",
+            "answer_b": "ansible --version",
+            "answer_c": "ansible v",
+            "answer_d": "ansiblectl v",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "DevOps"
+            }
+        ],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 241,
+        "question": "Can you start two MySQL servers at one PC?",
+        "description": null,
+        "answers": {
+            "answer_a": "True",
+            "answer_b": "False",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "category": "SQL",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 227,
+        "question": "Which SQL statement is used to extract data from the database?",
+        "description": null,
+        "answers": {
+            "answer_a": "SELECT",
+            "answer_b": "ACCESS",
+            "answer_c": "OPEN",
+            "answer_d": "GET",
+            "answer_e": "ACQUIRE",
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "category": "SQL",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 172,
+        "question": "Docker containers can run on:",
+        "description": null,
+        "answers": {
+            "answer_a": "Only Linux distributions",
+            "answer_b": "Linux distributions and Windows systems",
+            "answer_c": "Only Windows systems",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": "Docker containers are based on open standard allowing containers to run on all major Linux distributions and Microsoft operating systems",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Docker"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 490,
+        "question": "How are links defined in an <a> tag?",
+        "description": null,
+        "answers": {
+            "answer_a": "Href",
+            "answer_b": "Src-link",
+            "answer_c": "Src",
+            "answer_d": "Hlink",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Easy"
+    }
+]

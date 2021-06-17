@@ -1,2 +1,15 @@
-<h1>Main#result</h1>
-<p>Find me in app/views/main/result.html.erb</p>
+<h1>Result</h1>
+
+<div class = "container">
+	<div class = "row">
+		<div class = "col-3"></div>
+		<div class = "col-6">
+			<p><%= @results %></p>
+
+			<%= form_tag :action=> 'result' do %>
+				<%= submit_tag "Retake" %>
+			<% end %>
+		</div>
+		<div class = "col-3"></div>
+	</div>
+</div>

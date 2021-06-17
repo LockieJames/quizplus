@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  question: MyText
+  description: MyText
+  answers: MyText
+  multiple_correct_answers: MyText
+  correct_answers: MyText
+  correct_answer: MyText
+  explanation: MyText
+  tip: MyText
+  tags: MyText
+  category: MyText
+  difficulty: MyText
+
+two:
+  id: 1
+  question: MyText
+  description: MyText
+  answers: MyText
+  multiple_correct_answers: MyText
+  correct_answers: MyText
+  correct_answer: MyText
+  explanation: MyText
+  tip: MyText
+  tags: MyText
+  category: MyText
+  difficulty: MyText
